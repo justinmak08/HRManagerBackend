@@ -8,6 +8,8 @@ import com.southwind.util.UUIDGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 @Service
 public class ProjectsServiceImpl implements ProjectsService {
     @Autowired
@@ -27,6 +29,7 @@ public class ProjectsServiceImpl implements ProjectsService {
     @Override
     public Integer save(Projects projects) {
         String projectId = UUIDGenerator.getId();
+        projects.setCreationDate(new Date());
         projects.setId(projectId);
         return projectsRepository.save(projects);
     }
