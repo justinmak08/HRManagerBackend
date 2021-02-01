@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bddc080-a4df-4708-9f7f-4e3d14576895" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/southwind/service/impl/ProjectsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/southwind/service/impl/ProjectsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/southwind/service/impl/ProjectsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/southwind/service/impl/ProjectsServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +91,17 @@
     <selection>jr</selection>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ebook" />
       <extension name="coverage">
@@ -139,6 +151,7 @@
       <workItem from="1611798228974" duration="1279000" />
       <workItem from="1611799534241" duration="756000" />
       <workItem from="1611800724161" duration="7581000" />
+      <workItem from="1612151421118" duration="498000" />
     </task>
     <servers />
   </component>
